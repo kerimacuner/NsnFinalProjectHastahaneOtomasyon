@@ -10,20 +10,19 @@ using System.Windows.Forms;
 
 namespace NsnFinalProjectHastahaneOtomasyon
 {
-    public partial class Form1 : Form
+    public partial class ListForm : Form
     {
-        public Form1()
+        public ListForm()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void ListForm_Load(object sender, EventArgs e)
         {
-            this.BackColor = Color.Red;
-            this.TransparencyKey = Color.Red;
-            LoginForm loginForm = new LoginForm();
-            loginForm.Show();
+            DbProcess db = new DbProcess();
+            DataTable dataTable = db.GetLiDataTable();
+            //bool result = db.Login("kerimAcuner", "123456");
+            dataGridView1.DataSource = dataTable;
         }
-        
     }
 }
