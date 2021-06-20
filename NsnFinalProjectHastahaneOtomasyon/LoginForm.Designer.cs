@@ -48,6 +48,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.label1.Size = new System.Drawing.Size(235, 54);
             this.label1.TabIndex = 0;
             this.label1.Text = "Giriş Yapınız";
+            this.label1.UseWaitCursor = true;
             // 
             // label2
             // 
@@ -57,6 +58,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.label2.Size = new System.Drawing.Size(73, 15);
             this.label2.TabIndex = 0;
             this.label2.Text = "Kullanıcı Adı";
+            this.label2.UseWaitCursor = true;
             // 
             // textBox1
             // 
@@ -64,6 +66,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 23);
             this.textBox1.TabIndex = 0;
+            this.textBox1.UseWaitCursor = true;
             // 
             // label3
             // 
@@ -73,6 +76,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.label3.Size = new System.Drawing.Size(30, 15);
             this.label3.TabIndex = 0;
             this.label3.Text = "Şifre";
+            this.label3.UseWaitCursor = true;
             // 
             // textBox2
             // 
@@ -80,6 +84,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 23);
             this.textBox2.TabIndex = 1;
+            this.textBox2.UseWaitCursor = true;
             // 
             // button1
             // 
@@ -89,6 +94,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.button1.TabIndex = 2;
             this.button1.Text = "Giriş";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseWaitCursor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
@@ -98,6 +104,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 15);
             this.label4.TabIndex = 3;
+            this.label4.UseWaitCursor = true;
             // 
             // LoginForm
             // 
@@ -115,6 +122,8 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "LoginForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.UseWaitCursor = true;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.LoginForm_FormClosed);
             this.Load += new System.EventHandler(this.LoginForm_Load);
             this.ResumeLayout(false);

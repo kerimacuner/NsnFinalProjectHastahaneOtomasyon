@@ -35,8 +35,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
-            //System.Threading.Thread.Sleep(5000);
-            //Application.OpenForms[0].Hide();
+            Application.OpenForms[0].Hide();
         }
 
         private void LoginForm_FormClosed(object sender, FormClosedEventArgs e)

@@ -106,6 +106,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.txtGCalisanAd = new System.Windows.Forms.TextBox();
             this.txtGCalisanTC = new System.Windows.Forms.TextBox();
             this.Arama = new System.Windows.Forms.TabPage();
+            this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.btnAra = new System.Windows.Forms.Button();
             this.label25 = new System.Windows.Forms.Label();
@@ -118,7 +119,6 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.txtASoyad = new System.Windows.Forms.TextBox();
             this.txtAAd = new System.Windows.Forms.TextBox();
             this.txtATC = new System.Windows.Forms.TextBox();
-            this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
             this.Liste.SuspendLayout();
             this.tabControl4.SuspendLayout();
@@ -135,8 +135,8 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.HastaGuncelle.SuspendLayout();
             this.CalisanGuncelle.SuspendLayout();
             this.Arama.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -145,10 +145,11 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.tabControl1.Controls.Add(this.Ekleme);
             this.tabControl1.Controls.Add(this.Guncelleme);
             this.tabControl1.Controls.Add(this.Arama);
-            this.tabControl1.Location = new System.Drawing.Point(13, 13);
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1248, 661);
+            this.tabControl1.Size = new System.Drawing.Size(1273, 686);
             this.tabControl1.TabIndex = 0;
             // 
             // Liste
@@ -157,7 +158,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.Liste.Location = new System.Drawing.Point(4, 24);
             this.Liste.Name = "Liste";
             this.Liste.Padding = new System.Windows.Forms.Padding(3);
-            this.Liste.Size = new System.Drawing.Size(1240, 633);
+            this.Liste.Size = new System.Drawing.Size(1265, 658);
             this.Liste.TabIndex = 0;
             this.Liste.Text = "Liste";
             this.Liste.UseVisualStyleBackColor = true;
@@ -166,10 +167,11 @@ namespace NsnFinalProjectHastahaneOtomasyon
             // 
             this.tabControl4.Controls.Add(this.Hastalar);
             this.tabControl4.Controls.Add(this.Calisanlar);
-            this.tabControl4.Location = new System.Drawing.Point(4, 4);
+            this.tabControl4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl4.Location = new System.Drawing.Point(3, 3);
             this.tabControl4.Name = "tabControl4";
             this.tabControl4.SelectedIndex = 0;
-            this.tabControl4.Size = new System.Drawing.Size(1233, 617);
+            this.tabControl4.Size = new System.Drawing.Size(1259, 652);
             this.tabControl4.TabIndex = 1;
             // 
             // Hastalar
@@ -178,7 +180,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.Hastalar.Location = new System.Drawing.Point(4, 24);
             this.Hastalar.Name = "Hastalar";
             this.Hastalar.Padding = new System.Windows.Forms.Padding(3);
-            this.Hastalar.Size = new System.Drawing.Size(1225, 589);
+            this.Hastalar.Size = new System.Drawing.Size(1251, 624);
             this.Hastalar.TabIndex = 0;
             this.Hastalar.Text = "Hastalar";
             this.Hastalar.UseVisualStyleBackColor = true;
@@ -196,10 +198,11 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.Telefon,
             this.HGuncelle,
             this.HSil});
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 3);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(1185, 571);
+            this.dataGridView1.Size = new System.Drawing.Size(1245, 618);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -267,7 +270,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.Calisanlar.Location = new System.Drawing.Point(4, 24);
             this.Calisanlar.Name = "Calisanlar";
             this.Calisanlar.Padding = new System.Windows.Forms.Padding(3);
-            this.Calisanlar.Size = new System.Drawing.Size(1225, 589);
+            this.Calisanlar.Size = new System.Drawing.Size(1251, 624);
             this.Calisanlar.TabIndex = 1;
             this.Calisanlar.Text = "Çalışanlar";
             this.Calisanlar.UseVisualStyleBackColor = true;
@@ -285,10 +288,11 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.CTelefon,
             this.CGuncelle,
             this.CSil});
-            this.dataGridView2.Location = new System.Drawing.Point(4, 4);
+            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView2.Location = new System.Drawing.Point(3, 3);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 25;
-            this.dataGridView2.Size = new System.Drawing.Size(1191, 566);
+            this.dataGridView2.Size = new System.Drawing.Size(1245, 618);
             this.dataGridView2.TabIndex = 0;
             this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
@@ -301,42 +305,49 @@ namespace NsnFinalProjectHastahaneOtomasyon
             // 
             // KullaniciAdi
             // 
+            this.KullaniciAdi.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.KullaniciAdi.DataPropertyName = "KullaniciAdi";
             this.KullaniciAdi.HeaderText = "KullaniciAdi";
             this.KullaniciAdi.Name = "KullaniciAdi";
             // 
             // Sifresi
             // 
+            this.Sifresi.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Sifresi.DataPropertyName = "Sifresi";
             this.Sifresi.HeaderText = "Sifresi";
             this.Sifresi.Name = "Sifresi";
             // 
             // CTC
             // 
+            this.CTC.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.CTC.DataPropertyName = "TC";
             this.CTC.HeaderText = "TC";
             this.CTC.Name = "CTC";
             // 
             // CAd
             // 
+            this.CAd.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.CAd.DataPropertyName = "Ad";
             this.CAd.HeaderText = "Ad";
             this.CAd.Name = "CAd";
             // 
             // CSoyad
             // 
+            this.CSoyad.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.CSoyad.DataPropertyName = "Soyad";
             this.CSoyad.HeaderText = "Soyad";
             this.CSoyad.Name = "CSoyad";
             // 
             // CTelefon
             // 
+            this.CTelefon.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.CTelefon.DataPropertyName = "Telefon";
             this.CTelefon.HeaderText = "Telefon";
             this.CTelefon.Name = "CTelefon";
             // 
             // CGuncelle
             // 
+            this.CGuncelle.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.CGuncelle.HeaderText = "Güncelle";
             this.CGuncelle.Name = "CGuncelle";
             this.CGuncelle.Text = "Güncelle";
@@ -344,6 +355,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             // 
             // CSil
             // 
+            this.CSil.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.CSil.HeaderText = "Sil";
             this.CSil.Name = "CSil";
             this.CSil.Text = "Sil";
@@ -355,7 +367,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.Ekleme.Location = new System.Drawing.Point(4, 24);
             this.Ekleme.Name = "Ekleme";
             this.Ekleme.Padding = new System.Windows.Forms.Padding(3);
-            this.Ekleme.Size = new System.Drawing.Size(1240, 633);
+            this.Ekleme.Size = new System.Drawing.Size(1265, 658);
             this.Ekleme.TabIndex = 1;
             this.Ekleme.Text = "Ekleme";
             this.Ekleme.UseVisualStyleBackColor = true;
@@ -364,10 +376,11 @@ namespace NsnFinalProjectHastahaneOtomasyon
             // 
             this.tabControl2.Controls.Add(this.tabPage5);
             this.tabControl2.Controls.Add(this.tabPage6);
-            this.tabControl2.Location = new System.Drawing.Point(4, 4);
+            this.tabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl2.Location = new System.Drawing.Point(3, 3);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(657, 456);
+            this.tabControl2.Size = new System.Drawing.Size(1259, 652);
             this.tabControl2.TabIndex = 0;
             // 
             // tabPage5
@@ -384,7 +397,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.tabPage5.Location = new System.Drawing.Point(4, 24);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(649, 428);
+            this.tabPage5.Size = new System.Drawing.Size(1251, 624);
             this.tabPage5.TabIndex = 0;
             this.tabPage5.Text = "Hasta Ekleme";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -481,7 +494,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.tabPage6.Location = new System.Drawing.Point(4, 24);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(649, 428);
+            this.tabPage6.Size = new System.Drawing.Size(1251, 624);
             this.tabPage6.TabIndex = 1;
             this.tabPage6.Text = "Calisan Ekleme";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -598,7 +611,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.Guncelleme.Location = new System.Drawing.Point(4, 24);
             this.Guncelleme.Name = "Guncelleme";
             this.Guncelleme.Padding = new System.Windows.Forms.Padding(3);
-            this.Guncelleme.Size = new System.Drawing.Size(1240, 633);
+            this.Guncelleme.Size = new System.Drawing.Size(1265, 658);
             this.Guncelleme.TabIndex = 2;
             this.Guncelleme.Text = "Günceleme";
             this.Guncelleme.UseVisualStyleBackColor = true;
@@ -607,10 +620,11 @@ namespace NsnFinalProjectHastahaneOtomasyon
             // 
             this.tabControl3.Controls.Add(this.HastaGuncelle);
             this.tabControl3.Controls.Add(this.CalisanGuncelle);
+            this.tabControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl3.Location = new System.Drawing.Point(3, 3);
             this.tabControl3.Name = "tabControl3";
             this.tabControl3.SelectedIndex = 0;
-            this.tabControl3.Size = new System.Drawing.Size(657, 456);
+            this.tabControl3.Size = new System.Drawing.Size(1259, 652);
             this.tabControl3.TabIndex = 1;
             // 
             // HastaGuncelle
@@ -627,7 +641,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.HastaGuncelle.Location = new System.Drawing.Point(4, 24);
             this.HastaGuncelle.Name = "HastaGuncelle";
             this.HastaGuncelle.Padding = new System.Windows.Forms.Padding(3);
-            this.HastaGuncelle.Size = new System.Drawing.Size(649, 428);
+            this.HastaGuncelle.Size = new System.Drawing.Size(1251, 624);
             this.HastaGuncelle.TabIndex = 0;
             this.HastaGuncelle.Text = "Hasta Guncelleme";
             this.HastaGuncelle.UseVisualStyleBackColor = true;
@@ -724,7 +738,7 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.CalisanGuncelle.Location = new System.Drawing.Point(4, 24);
             this.CalisanGuncelle.Name = "CalisanGuncelle";
             this.CalisanGuncelle.Padding = new System.Windows.Forms.Padding(3);
-            this.CalisanGuncelle.Size = new System.Drawing.Size(649, 428);
+            this.CalisanGuncelle.Size = new System.Drawing.Size(1251, 624);
             this.CalisanGuncelle.TabIndex = 1;
             this.CalisanGuncelle.Text = "Calisan Guncelleme";
             this.CalisanGuncelle.UseVisualStyleBackColor = true;
@@ -853,13 +867,30 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.Arama.Location = new System.Drawing.Point(4, 24);
             this.Arama.Name = "Arama";
             this.Arama.Padding = new System.Windows.Forms.Padding(3);
-            this.Arama.Size = new System.Drawing.Size(1240, 633);
+            this.Arama.Size = new System.Drawing.Size(1265, 658);
             this.Arama.TabIndex = 3;
             this.Arama.Text = "Arama";
             this.Arama.UseVisualStyleBackColor = true;
             // 
+            // dataGridView4
+            // 
+            this.dataGridView4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView4.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataGridView4.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView4.Location = new System.Drawing.Point(247, 335);
+            this.dataGridView4.Name = "dataGridView4";
+            this.dataGridView4.RowTemplate.Height = 25;
+            this.dataGridView4.Size = new System.Drawing.Size(966, 282);
+            this.dataGridView4.TabIndex = 12;
+            // 
             // dataGridView3
             // 
+            this.dataGridView3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataGridView3.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Location = new System.Drawing.Point(247, 40);
             this.dataGridView3.Name = "dataGridView3";
@@ -957,15 +988,6 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.txtATC.Size = new System.Drawing.Size(100, 23);
             this.txtATC.TabIndex = 0;
             // 
-            // dataGridView4
-            // 
-            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Location = new System.Drawing.Point(247, 335);
-            this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.RowTemplate.Height = 25;
-            this.dataGridView4.Size = new System.Drawing.Size(966, 282);
-            this.dataGridView4.TabIndex = 12;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -998,8 +1020,8 @@ namespace NsnFinalProjectHastahaneOtomasyon
             this.CalisanGuncelle.PerformLayout();
             this.Arama.ResumeLayout(false);
             this.Arama.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1074,15 +1096,6 @@ namespace NsnFinalProjectHastahaneOtomasyon
         private System.Windows.Forms.DataGridViewTextBoxColumn Telefon;
         private System.Windows.Forms.DataGridViewButtonColumn HGuncelle;
         private System.Windows.Forms.DataGridViewButtonColumn HSil;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CalisanID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn KullaniciAdi;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Sifresi;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CTC;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CAd;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CSoyad;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CTelefon;
-        private System.Windows.Forms.DataGridViewButtonColumn CGuncelle;
-        private System.Windows.Forms.DataGridViewButtonColumn CSil;
         private System.Windows.Forms.DataGridView dataGridView3;
         private System.Windows.Forms.Button btnAra;
         private System.Windows.Forms.Label label25;
@@ -1096,5 +1109,14 @@ namespace NsnFinalProjectHastahaneOtomasyon
         private System.Windows.Forms.TextBox txtAAd;
         private System.Windows.Forms.TextBox txtATC;
         private System.Windows.Forms.DataGridView dataGridView4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CalisanID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn KullaniciAdi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Sifresi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CTC;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CAd;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CSoyad;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CTelefon;
+        private System.Windows.Forms.DataGridViewButtonColumn CGuncelle;
+        private System.Windows.Forms.DataGridViewButtonColumn CSil;
     }
 }
